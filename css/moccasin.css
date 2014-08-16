@@ -1,1 +1,5 @@
-.lede { margin: 120px 0;}
+.lede { padding: 120px 0; background: #cdebeb url(../images/skyscape.png) bottom repeat-x; }
+.lede .container { padding-bottom: 180px; }
+.lede h1 { font: 100px/90px BrandonGrotesque-Black, 'Helvetica Neue', Helvetica, Arial; color: #665; max-width: 540px; text-transform: uppercase; margin: 0; }
+.subhead { font: 104px/90px 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial; color: #fff; max-width: 540px; text-transform: uppercase; }
+.lede h2 { font: 24px/36px 'Merriweather', Georgia, serif; color: #665; margin: 20px 0 36px 0; max-width: 540px; }
