@@ -19,7 +19,7 @@
 
 /* Device-specific styles */
 @media screen and (max-width: 768px) {
-    .lede h1, .subhead { font: 60px/54px 'BrandonGrotesque-Black', 'Helvetica Neue Bold', Helvetica, Arial; }
+    .lede h1, .subhead { font: 56px/48px 'BrandonGrotesque-Black', 'Helvetica Neue Bold', Helvetica, Arial; }
     .content  p, .content ol li { font: 16px/24px 'Merriweather', Georgia, serif; }
 
 }
