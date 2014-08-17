@@ -9,6 +9,7 @@
 .details { margin: 0 0 30px; padding-bottom: 20px; border-bottom: 1px dashed #5a94a2;}
 .details .col-md-4 h3 { font: 16px/18px 'BrandonGrotesque-Black', 'Helvetica Neue', Helvetica, Arial; color: #5a94a2; text-transform: uppercase; margin: 0 0 20px; letter-spacing: .08em; }
 .details .col-md-4 p { color: #554; font: 16px/24px 'Merriweather', Georgia, serif; margin-bottom: 45px; }
+.content { padding-bottom: 120px; }
 .content h3 { font: italic 18px/45px 'Merriweather', Georgia, serif; margin: 60px 0 15px 20px; padding: 0 20px; }
 .content  p { font: 20px/30px 'Merriweather', Georgia, serif; color: #91a8a0; margin: 0 0 15px 20px; padding: 0 20px; }
 .content ol li { font: 20px/30px 'Merriweather', Georgia, serif; color: #91a8a0; margin: 0 0 15px 20px;  }
