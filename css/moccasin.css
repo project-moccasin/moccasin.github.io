@@ -20,7 +20,7 @@
 /* Device-specific styles */
 @media screen and (max-width: 768px) {
     .lede h1, .subhead { font-size: 68px; line-height: 60px; }
-    .content  p { font: 16px/24px 'Merriweather', Georgia, serif; }
+    .content  p, .content ol li { font: 16px/24px 'Merriweather', Georgia, serif; }
 
 }
  
