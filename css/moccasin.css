@@ -11,7 +11,7 @@
 .details .col-md-4 p { color: #554; font: 16px/24px 'Merriweather', Georgia, serif; margin-bottom: 45px; }
 .content { padding-bottom: 120px; }
 .content h3 { font: italic 18px/45px 'Merriweather', Georgia, serif; margin: 60px 0 15px 20px; padding: 0 20px; }
-.content  p { font: 20px/30px 'Merriweather', Georgia, serif; color: #899; margin: 0 0 15px 20px; padding: 0 20px; }
+.content  p { font: 20px/30px 'Merriweather', Georgia, serif; color: #899; margin: 0 0 15px 20px; padding: 0 20px 0 0; }
 .content ol li { font: 20px/30px 'Merriweather', Georgia, serif; color: #899; margin: 0 0 15px 20px;  }
 .content ol li em { color: #211e1f; font-style: normal; }
 .content a { color: #f72; border-bottom: 1px dotted #f72; }
