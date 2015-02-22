@@ -1,8 +1,10 @@
-.lede { padding: 120px 0 30px; background: #a2dce7 url(../images/skyscape.png) bottom repeat-x; }
+.lede { padding: 120px 0 90px; background: #a2dce7 url(../images/skyscape.png) bottom repeat-x; }
+.lede p { margin: 0; }
 .lede .container { padding-bottom: 120px; }
 .lede h1 { font: 100px/84px 'BrandonGrotesque-Black', 'Helvetica Neue Bold', Helvetica, Arial; color: #555; max-width: 540px; text-transform: uppercase; margin: 0; }
 .subhead { font: 68px/60px 'Capriola', 'Helvetica Neue', Helvetica, Arial; color: #fff; max-width: 540px; text-transform: uppercase; }
-.lede h2 { font: 18px/30px 'Merriweather', Georgia, serif; color: #665; margin: 40px 0; max-width: 540px; }
+.lede h2 { font: 18px/30px 'Merriweather', Georgia, serif; color: #665; margin: 40px 0 20px 0; max-width: 540px; }
+.lede .tinytype { font: 12px/13px 'Merriweather', Georgia, serif; color: #665; margin: 20px 0 40px 0; max-width: 540px; }
 .lede .btn-primary { width: 240px; padding: 20px 0; line-height: 75px; background-color: #f66; border: none; font: 24px BrandonGrotesque-Black, 'Helvetica Neue', Helvetica, Arial; text-shadow: 0 1px 0 #f1c4bf; color: #332; letter-spacing: .05em; text-transform: uppercase; margin-top: 4px; }
 
 /*.content .row { margin-top: 60px; padding-top: 20px; border-top: 1px dashed #5a94a2; } */
