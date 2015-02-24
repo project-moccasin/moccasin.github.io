@@ -5,7 +5,9 @@
 .subhead { font: 68px/60px 'Capriola', 'Helvetica Neue', Helvetica, Arial; color: #fff; max-width: 540px; text-transform: uppercase; }
 .lede h2 { font: 18px/30px 'Merriweather', Georgia, serif; color: #665; margin: 40px 0 20px 0; max-width: 540px; }
 .lede .tinytype { font: 12px/13px 'Merriweather', Georgia, serif; color: #665; margin: 20px 0 40px 0; max-width: 540px; }
-.lede .btn-primary { width: 240px; padding: 20px 0; line-height: 75px; background-color: #f66; border: none; font: 24px BrandonGrotesque-Black, 'Helvetica Neue', Helvetica, Arial; text-shadow: 0 1px 0 #f1c4bf; color: #332; letter-spacing: .05em; text-transform: uppercase; margin-top: 4px; }
+.lede .tinytype a { color: #29b; }
+.lede .btn-primary { width: 220px; padding: 20px 0; line-height: 75px; background-color: #5cd; border: none; font: 16px BrandonGrotesque-Black, 'Helvetica Neue', Helvetica, Arial; text-shadow: 0 1px 0 #fff; color: #332; letter-spacing: .05em; text-transform: uppercase; margin-top: 4px; }
+.lede .new-york { margin-right: 6px; background-color: #f0c94f; }
 
 /*.content .row { margin-top: 60px; padding-top: 20px; border-top: 1px dashed #5a94a2; } */
 .details { margin: 0 0 30px; padding-bottom: 20px; border-bottom: 1px dotted #a2dce7;}
@@ -13,13 +15,15 @@
 .details .col-md-4 p { color: #554; font: 16px/26px 'Merriweather', Georgia, serif; margin-bottom: 45px; }
 .content { padding-bottom: 120px; }
 .content h3 { font: 16px/20px 'BrandonGrotesque-Black', 'Helvetica Neue', Helvetica, Arial; color: #333; text-transform: uppercase; letter-spacing: .08em; margin: 120px 0 30px 20px; padding: 0 20px 0 0; }
-.content  p { font: 24px/40px 'Merriweather', Georgia, serif; color: #9e8d7b; margin: 0 0 30px 20px; padding: 0 30px 0 0; }
-.content ol li { font: 24px/40px 'Merriweather', Georgia, serif; color: #9e8d7b; margin: 0 0 30px 20px;  }
-.content ol li em { color: #211e1f; font-style: normal; }
+.content  p { font: 18px/30px 'Merriweather', Georgia, serif; color: #665; margin: 0 0 30px 20px; padding: 0 30px 0 0; }
+.content ol li { font: 18px/30px 'Merriweather', Georgia, serif; color: #665; margin: 0 0 30px 20px;  }
+.content ol li em { color: #000; font-style: normal; }
 .content a { color: #0be; border-bottom: 1px dotted #f72; }
 .content a:hover { text-decoration: none; color: #f72; }
-.content .btn-primary { width: 240px; padding: 20px 0; line-height: 75px; background-color: #f66; border: none; font: 24px BrandonGrotesque-Black, 'Helvetica Neue', Helvetica, Arial; text-shadow: 0 1px 0 #f1c4bf; color: #332; letter-spacing: .05em; text-transform: uppercase; margin-top: 4px; }
+.content .btn-primary { width: 220px; padding: 20px 0; line-height: 75px; background-color: #5cd; border: none; font: 16px BrandonGrotesque-Black, 'Helvetica Neue', Helvetica, Arial; text-shadow: 0 1px 0 #fff; color: #332; letter-spacing: .05em; text-transform: uppercase; margin-top: 4px; }
 .content .btn-primary:hover { color: #000; }
+.content .new-york { margin-right: 6px; background-color: #f0c94f; }
+
 
 /* Device-specific styles */
 @media screen and (max-width: 768px) {
