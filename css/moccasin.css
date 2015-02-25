@@ -1,35 +1,39 @@
-.lede { padding: 120px 0 90px; background: #a2dce7 url(../images/skyscape.png) bottom repeat-x; }
-.lede p { margin: 0; }
+.lede { padding: 90px 0 30px; background: url(../images/bg-moccasin.jpg) center 0 no-repeat; }
 .lede .container { padding-bottom: 120px; }
-.lede h1 { font: 100px/84px 'BrandonGrotesque-Black', 'Helvetica Neue Bold', Helvetica, Arial; color: #555; max-width: 540px; text-transform: uppercase; margin: 0; }
-.subhead { font: 68px/60px 'Capriola', 'Helvetica Neue', Helvetica, Arial; color: #fff; max-width: 540px; text-transform: uppercase; }
-.lede h2 { font: 18px/30px 'Merriweather', Georgia, serif; color: #665; margin: 40px 0 20px 0; max-width: 540px; }
-.lede .tinytype { font: 12px/13px 'Merriweather', Georgia, serif; color: #665; margin: 20px 0 40px 0; max-width: 540px; }
-.lede .tinytype a { color: #29b; }
-.lede .btn-primary { width: 220px; padding: 20px 0; line-height: 75px; background-color: #5cd; border: none; font: 16px BrandonGrotesque-Black, 'Helvetica Neue', Helvetica, Arial; text-shadow: 0 1px 0 #fff; color: #332; letter-spacing: .05em; text-transform: uppercase; margin-top: 4px; }
-.lede .new-york { margin-right: 6px; background-color: #f0c94f; }
+.lede h1 { font: 72px/64px 'BrandonGrotesque-Black', 'Helvetica Neue Bold', Helvetica, Arial, sans-serif; color: #fff; max-width: 540px; text-transform: uppercase; margin: 0; }
+.subhead { font: 36px/30px 'Capriola', 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #f70; max-width: 540px; margin-bottom: 30px; text-transform: uppercase; }
+.lede h2 { font: 300 28px/40px 'Merriweather', Georgia, serif; color: #fff; margin: 40px 0; padding-right: 20px; max-width: 540px; }
+.lede .btn-primary, .content .btn-primary { font: 300 28px/30px 'Merriweather', Georgia, serif; color: #fff; width: 260px; padding: 12px 0; background-color: transparent; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; border: 2px solid #fff; }
+.lede .new-york { margin-right: 12px; }
+.lede .btn-primary em, .content .btn-primary em { display: block; font: italic 16px/20px 'Merriweather', Georgia, serif; color: #f70; }
+.lede hr { width: 32px; margin: 30px 0; border-color: #fff; }
+
 
 /*.content .row { margin-top: 60px; padding-top: 20px; border-top: 1px dashed #5a94a2; } */
-.details { margin: 0 0 30px; padding-bottom: 20px; border-bottom: 1px dotted #a2dce7;}
-.details .col-md-4 h3 { font: 16px/20px 'BrandonGrotesque-Black', 'Helvetica Neue', Helvetica, Arial; color: #333; text-transform: uppercase; margin: 0 0 20px; letter-spacing: .08em; }
+.midsection { padding: 90px 0 200px; background: #dbe4e0 url(../images/skyscape.png) bottom repeat-x; }
+.details { margin: 0 0 30px; padding-bottom: 20px; }
+.details .col-md-4 h3 { font: 16px/20px 'BrandonGrotesque-Black', 'Helvetica Neue', Helvetica, Arial; color: #554; text-transform: uppercase; margin: 0 0 20px; letter-spacing: .08em; }
 .details .col-md-4 p { color: #554; font: 16px/26px 'Merriweather', Georgia, serif; margin-bottom: 45px; }
-.content { padding-bottom: 120px; }
-.content h3 { font: 16px/20px 'BrandonGrotesque-Black', 'Helvetica Neue', Helvetica, Arial; color: #333; text-transform: uppercase; letter-spacing: .08em; margin: 120px 0 30px 20px; padding: 0 20px 0 0; }
-.content  p { font: 18px/30px 'Merriweather', Georgia, serif; color: #665; margin: 0 0 30px 20px; padding: 0 30px 0 0; }
-.content ol li { font: 18px/30px 'Merriweather', Georgia, serif; color: #665; margin: 0 0 30px 20px;  }
-.content ol li em { color: #000; font-style: normal; }
-.content a { color: #0be; border-bottom: 1px dotted #f72; }
-.content a:hover { text-decoration: none; color: #f72; }
-.content .btn-primary { width: 220px; padding: 20px 0; line-height: 75px; background-color: #5cd; border: none; font: 16px BrandonGrotesque-Black, 'Helvetica Neue', Helvetica, Arial; text-shadow: 0 1px 0 #fff; color: #332; letter-spacing: .05em; text-transform: uppercase; margin-top: 4px; }
-.content .btn-primary:hover { color: #000; }
-.content .new-york { margin-right: 6px; background-color: #f0c94f; }
 
+.content { padding-bottom: 120px; }
+.content hr { width: 32px; margin: 90px 0 30px 20px; border-color: #333; }
+.content h3 { font: 16px/20px 'BrandonGrotesque-Black', 'Helvetica Neue', Helvetica, Arial; color: #333; text-transform: uppercase; letter-spacing: .08em; margin: 0 0 60px 20px; padding: 0 20px 0 0; }
+.content  p { font: 28px/40px 'Merriweather', Georgia, serif; color: #91a8a0; margin: 0 0 30px 20px; padding: 0 30px 0 0; }
+.content ol li { font: 28px/40px 'Merriweather', Georgia, serif; color: #91a8a0; margin: 0 0 30px 20px; padding-right: 30px; }
+.content ol li em { color: #000; font-style: normal; }
+.content a { color: #e51; }
+.content a:hover { text-decoration: none; color: #f72; }
+.content .btn-primary { background-color: #e51; color: #000; }
+.content .btn-primary em { color: #fff; }
+.content .btn-primary:hover { background-color: #e77; color: #000; }
+.content .tinytype { font: 12px/18px 'Merriweather', Georgia, serif; }
 
 /* Device-specific styles */
 @media screen and (max-width: 768px) {
     .lede h1 { font: 56px/48px 'BrandonGrotesque-Black', 'Helvetica Neue Bold', Helvetica, Arial; }
     .lede .subhead { font: 36px/30px 'Capriola', 'Helvetica Neue', Helvetica, Arial; }
     .lede h2 { font: 20px/28px 'Merriweather', Georgia, serif;}
+    .lede .new-york, .content .new-york { margin-bottom: 12px; }
     .content  p, .content ol li { font: 16px/24px 'Merriweather', Georgia, serif; }
 
 }
