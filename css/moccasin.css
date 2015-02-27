@@ -6,7 +6,7 @@
 .lede h1 { font: 72px/64px 'BrandonGrotesque-Black', 'Helvetica Neue Bold', Helvetica, Arial, sans-serif; color: #fff; max-width: 540px; text-transform: uppercase; margin: 60px 0 0; }
 .subhead { font: 36px/30px 'Capriola', 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #f70; max-width: 540px; margin-bottom: 30px; text-transform: uppercase; }
 .lede h2 { font: 300 28px/40px 'Merriweather', Georgia, serif; color: #fff; margin: 40px 0; padding-right: 20px; max-width: 540px; }
-.lede .btn-primary, .content .btn-primary { font: 300 28px/30px 'Merriweather', Georgia, serif; color: #fff; width: 260px; padding: 12px 0; background-color: transparent; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; border: 2px solid #fff; }
+.lede .btn-primary, .content .btn-primary { font: 300 28px/30px 'Merriweather', Georgia, serif; color: #fff; width: 260px; padding: 12px 0; margin: 6px 0; background-color: transparent; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; border: 2px solid #fff; }
 .lede .new-york { margin-right: 12px; }
 .lede .btn-primary em, .content .btn-primary em { display: block; font: italic 16px/20px 'Merriweather', Georgia, serif; color: #f70; }
 .lede hr { width: 32px; margin: 30px 0; border-color: #fff; }
@@ -26,9 +26,13 @@
 .content ol li em { color: #000; font-style: normal; }
 .content a { color: #e51; }
 .content a:hover { text-decoration: none; color: #f72; }
+.content .mentor-pic { height: 100px; width: 100px; -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; margin: 20px; }
 .content .btn-primary { background-color: #e51; color: #000; }
 .content .btn-primary em { color: #fff; }
 .content .btn-primary:hover { background-color: #e77; color: #000; }
+.content .btn-round { font: 300 11px 'Merriweather', Georgia, serif; color: #fff; background-color: #e51; padding-top: 30px; width: 100px; height: 100px; -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; margin: 20px; }
+.content .btn-round em { display: block; font-size: 16px; color: #000; }
+.content .btn-round:hover { background-color: #e51; color: #fff; }
 .content .tinytype { font: 12px/18px 'Merriweather', Georgia, serif; }
 
 /* Device-specific styles */
@@ -36,7 +40,6 @@
     .lede h1 { font: 56px/48px 'BrandonGrotesque-Black', 'Helvetica Neue Bold', Helvetica, Arial; }
     .lede .subhead { font: 36px/30px 'Capriola', 'Helvetica Neue', Helvetica, Arial; }
     .lede h2 { font: 20px/28px 'Merriweather', Georgia, serif;}
-    .lede .new-york, .content .new-york { margin-bottom: 12px; }
     .content  p, .content ol li { font: 16px/24px 'Merriweather', Georgia, serif; }
 
 }
