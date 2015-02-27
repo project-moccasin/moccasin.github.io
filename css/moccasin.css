@@ -1,4 +1,4 @@
-.lede { padding: 30px 0 120px; background: url(../images/bg-moccasin.jpg) center 0 no-repeat;  color: #fff; }
+.lede { padding: 30px 0 120px; background: url(../images/bg-moccasin.jpg) center 0 no-repeat;  background-size: cover; color: #fff; }
 /*.lede .container { padding-bottom: 120px; }*/
 
 .lede .nav a { color: rgba(255,255,255,.8); font: 300 14px 'Merriweather', Georgia, serif;  -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; border: 1px solid transparent; }
